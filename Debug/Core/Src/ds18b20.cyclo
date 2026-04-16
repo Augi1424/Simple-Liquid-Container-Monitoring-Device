@@ -1,0 +1,7 @@
+../Core/Src/ds18b20.c:11:6:Ds18_Init	3
+../Core/Src/ds18b20.c:27:6:Write1	1
+../Core/Src/ds18b20.c:34:6:Write0	1
+../Core/Src/ds18b20.c:41:6:Ds18_Transmit	3
+../Core/Src/ds18b20.c:52:9:Ds18_ReadBit	1
+../Core/Src/ds18b20.c:63:9:Ds18_ReadByte	2
+../Core/Src/ds18b20.c:73:7:Ds18_MeasureTemp	5

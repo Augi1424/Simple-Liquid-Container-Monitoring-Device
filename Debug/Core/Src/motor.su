@@ -1,0 +1,2 @@
+../Core/Src/motor.c:9:6:Moto_Start	24	static
+../Core/Src/motor.c:14:6:Moto_Stop	24	static
