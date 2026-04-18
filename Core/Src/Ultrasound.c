@@ -21,11 +21,6 @@ void HAL_TIM_IC_CaptureCallback(TIM_HandleTypeDef *htim){
 		risingedge = HAL_TIM_ReadCapturedValue(&htim1, TIM_CHANNEL_3);
 		fallingedge = HAL_TIM_ReadCapturedValue(&htim1, TIM_CHANNEL_4);
 		distance = 30 - ((fallingedge - risingedge) * (1e-6) * (3.37e4) / 2);
-
-		sprintf(message, "高 %.1f cm", distance);
-		OLED_NewFrame();
-		OLED_PrintString(0, 0, message, &font16x16, OLED_COLOR_NORMAL);
-		OLED_ShowFrame();
 	}
 }
 
